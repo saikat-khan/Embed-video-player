@@ -1,1 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/hasan"
+            android:scaleType="centerCrop"
+            />
+
+
+
+        <LinearLayout
+            android:id="@+id/video1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+            >
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/bd1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Beautiful Bangladesh | Let's See Bangladesh | Aerial View of Bangladesh | 4K"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:lines="2"
+                    android:layout_marginVertical="5sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Let's see the beauty of Bangladesh presented by Md. Sohanur Rahman Sohan"
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:lines="2"
+                    android:layout_marginVertical="4sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Video Duration : 4:29"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:lines="1"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/video2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+            >
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/muktijuddo"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PART - 1 | HISTORY OF LIBERATION WAR OF BANGLADESH | DR. MAHFUZUR RAHMAN |"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:lines="2"
+                    android:layout_marginVertical="5sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DEDICATED TO THE MEMORY OF THE MARTYRS OF 1971 LIBERATION WAR.A Documentary Replete With rare Pictures. Historic Documents.Planning, Editing,Research, Collection and Direction By DR. MAHFUZUR RAHMAN chairman ATN BANGLA.SCRIPT : SAIFUL BARI and RAHUL RAHA."
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:lines="2"
+                    android:layout_marginVertical="4sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Video Duration : 27:36"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:lines="1"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/video3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/dh" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5sp"
+                    android:lines="1"
+                    android:text="History of Dhaka University"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="4sp"
+                    android:lines="2"
+                    android:text="| History of Dhaka University || History of Dhaka University |"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:text=" Video Duration : 5:41"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/video4"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:background="#DCDCDC"
+            >
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/food"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incredible TOP 10 Most Popular Foods In Bangladesh | Bangladeshi Street Food | Traditional Foods BD"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:textColor="#000000"
+                    android:lines="2"
+                    android:layout_marginVertical="5sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Today we know about the top 10 most popular Bangladeshi foods."
+                    android:textSize="13sp"
+                    android:textStyle="normal"
+                    android:lines="2"
+                    android:layout_marginVertical="4sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" Video Duration : 7:21"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:lines="1"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
