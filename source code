@@ -76,3 +76,33 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
+////////////////code 2 ////////////
+
+
+package com.saikat.videoplayer;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.webkit.WebView;
+
+public class videoPlayer extends AppCompatActivity {
+
+    WebView webView;
+    public static String Video_url ="";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.video_player);
+
+
+        webView = findViewById(R.id.webView);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.loadUrl(Video_url);
+
+
+
+    }
+}
